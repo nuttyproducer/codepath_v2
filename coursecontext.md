@@ -29,13 +29,71 @@ The repo currently contains 3 sprints of JavaScript exercises covering:
 - TDD practice: `count`, `repeat`, `getOrdinalNumber`
 - Stretch: password validator, card validator, `find` function
 
-## Additional Context
+## New Content Added (Sprint 4-10)
 
-<!-- 
-Add your extra context here — e.g.:
-- Which topics students struggle with most
-- What kinds of challenges you want to add
-- Difficulty levels
-- Any specific JavaScript concepts to focus on
--->
+Extended the curriculum with 7 additional sprints focused on real-world scenarios:
+
+### Sprint 4 – Arrays (👥 Student Grade Tracker)
+- Array iteration, `map`, `filter`, `reduce`
+- Calculate class averages, filter passing students
+- Sort by grades, generate analytics
+- **Real-world**: Learning Management Systems
+
+### Sprint 5 – Objects (📇 Contact Manager)
+- Object properties, methods, `this` keyword
+- Nested data, destructuring, spread operator
+- Create, search, update, filter contacts
+- **Real-world**: CRM systems like Salesforce
+
+### Sprint 6 – Strings & RegEx (📝 Form Validation)
+- String methods, template literals
+- Regular expressions for pattern matching
+- Email validation, password strength, phone formatting
+- **Real-world**: Signup forms, input validation
+
+### Sprint 7 – DOM Manipulation (🛒 Shopping Cart) **HTML/CSS/JS Bridge!**
+- querySelector, event listeners
+- Dynamic content, classList manipulation
+- Build interactive shopping cart with localStorage
+- **Real-world**: E-commerce sites, interactive web apps
+- **Note**: Includes HTML/CSS starter files
+
+### Sprint 8 – Control Flow (🎫 Ticket Booking)
+- Conditional logic, switch statements, ternary operators
+- Dynamic pricing based on multiple factors
+- Age-based, time-based, availability checking
+- **Real-world**: Ticketmaster, airline booking
+
+### Sprint 9 – Error Handling (🏦 Banking Transactions)
+- try/catch, throw, custom error classes
+- Defensive programming, input validation
+- Transaction validation, error logging
+- **Real-world**: Financial apps, payment systems
+
+### Sprint 10 – Algorithms (🗓️ Scheduling System)
+- Problem-solving patterns, recursion
+- Find available slots, check conflicts
+- Sort and optimize schedules
+- **Real-world**: Calendar apps, booking systems
+
+## Structure
+
+Each new sprint follows this pattern:
+```
+Sprint-X/
+  ├── readme.md              # Overview, learning objectives, resources
+  ├── 1-key-exercises/       # 4-5 focused exercises
+  ├── 2-mandatory-implement/ # 4 function implementations
+  └── 3-stretch/            # Optional challenge
+```
+
+## Key Design Principles
+
+- ✅ Every exercise has a **real-world application**
+- ✅ Progressive difficulty within each sprint
+- ✅ Exercises mirror actual development scenarios
+- ✅ Sprint-7 bridges HTML/CSS knowledge with JavaScript
+- ✅ Emphasizes practical skills for modern web development
+
+## Additional Context
 

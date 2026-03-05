@@ -1,8 +1,52 @@
+# CodePath v2 — JavaScript Practice Challenges
+
+**A comprehensive JavaScript learning path with 10 progressive sprints covering fundamentals to advanced topics through real-world scenarios.**
+
 > [!TIP]
 > You should always do the prep work _before_ attempting the coursework.
 > The prep shows you _how_ to do the coursework.
 > There is often a step by step video you can code along with too.
 > Do the prep.
+
+## 📚 Curriculum Overview
+
+This repository contains **10 sprints** of JavaScript exercises, progressing from fundamentals to advanced topics. Each sprint includes:
+- **Key Exercises** — Short, focused practice
+- **Mandatory Implement** — Build real functions
+- **Stretch Goals** — Optional challenges
+
+| Sprint | Topic | Real-World Theme | Status |
+|--------|-------|------------------|--------|
+| **Sprint-1** | Fundamentals | Variables, strings, Math | ✅ Complete |
+| **Sprint-2** | Functions & Debugging | Function implementation | ✅ Complete |
+| **Sprint-3** | Testing & TDD | Jest, unit testing | ✅ Complete |
+| **Sprint-4** | Arrays | 👥 Student Grade Tracker | ✅ Complete |
+| **Sprint-5** | Objects | 📇 Contact Manager | ✅ Complete |
+| **Sprint-6** | Strings & RegEx | 📝 Form Validation | ✅ Complete |
+| **Sprint-7** | DOM Manipulation | 🛒 Shopping Cart (HTML/CSS/JS) | 🚧 In Progress |
+| **Sprint-8** | Control Flow | 🎫 Ticket Booking System | 🚧 In Progress |
+| **Sprint-9** | Error Handling | 🏦 Banking Transactions | 🚧 In Progress |
+| **Sprint-10** | Algorithms | 🗓️ Scheduling System | 🚧 In Progress |
+
+## 🎯 Learning Path
+
+### For Beginners
+1. Start with Sprint-1 (Fundamentals)
+2. Progress through Sprint-2 and Sprint-3
+3. Move to Sprint-4 (Arrays) for data manipulation
+4. Continue sequentially through Sprint-10
+
+### For Intermediate Learners
+- Jump to Sprint-4 if comfortable with basics
+- Sprint-7 (DOM) is essential for web development
+- Sprint-9 (Error Handling) is crucial for production code
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Basic understanding of HTML/CSS (recommended for Sprint-7+)
+- Node.js and npm installed
+- VS Code or similar code editor
 
 ## Setting up your code editor
 

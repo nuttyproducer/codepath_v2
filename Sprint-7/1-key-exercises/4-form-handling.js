@@ -1,8 +1,8 @@
 /**
  * Sprint 7 - Key Exercise 4: Form Handling
- * 
+ *
  * Learning objective: Handle form submissions and input values
- * 
+ *
  * Task:
  * Open form-handling.html and complete the form submission logic.
  */
@@ -12,7 +12,6 @@ const form = null;
 
 // TODO: Add a submit event listener to the form
 // Prevent the default form submission behavior using event.preventDefault()
-
 
 // Inside the event listener:
 // TODO: Get the values from the input fields

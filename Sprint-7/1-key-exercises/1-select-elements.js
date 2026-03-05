@@ -1,12 +1,12 @@
 /**
  * Sprint 7 - Key Exercise 1: Select DOM Elements
- * 
+ *
  * Learning objective: Practice selecting elements from the DOM
- * 
+ *
  * Task:
  * Open the accompanying HTML file (select-elements.html) in your browser.
  * Complete the TODOs below to select elements.
- * 
+ *
  * Open the browser console to see the results.
  */
 

@@ -7,21 +7,25 @@ Implement and compare different sorting algorithms!
 Implement at least 3 sorting algorithms:
 
 ### 1. Bubble Sort
+
 - Compare adjacent elements and swap if needed
 - Repeat until array is sorted
 - Time complexity: O(n²)
 
 ### 2. Selection Sort
+
 - Find minimum element and move to beginning
 - Repeat for remaining elements
 - Time complexity: O(n²)
 
 ### 3. Merge Sort
+
 - Divide array in half recursively
 - Merge sorted halves
 - Time complexity: O(n log n)
 
 ### 4. Quick Sort (Bonus)
+
 - Pick a pivot element
 - Partition array around pivot
 - Recursively sort partitions
@@ -34,19 +38,19 @@ class SortingAlgorithms {
   bubbleSort(arr) {
     // Implement bubble sort
   }
-  
+
   selectionSort(arr) {
     // Implement selection sort
   }
-  
+
   mergeSort(arr) {
     // Implement merge sort
   }
-  
+
   quickSort(arr) {
     // Implement quick sort (bonus)
   }
-  
+
   compare(arr, algorithms) {
     // Compare performance of different algorithms
     // Return execution times
@@ -74,8 +78,12 @@ class SortingAlgorithms {
 
 ```javascript
 const small = [5, 2, 8, 1, 9];
-const medium = Array.from({ length: 100 }, () => Math.floor(Math.random() * 100));
-const large = Array.from({ length: 1000 }, () => Math.floor(Math.random() * 1000));
+const medium = Array.from({ length: 100 }, () =>
+  Math.floor(Math.random() * 100)
+);
+const large = Array.from({ length: 1000 }, () =>
+  Math.floor(Math.random() * 1000)
+);
 const sorted = [1, 2, 3, 4, 5];
 const reversed = [5, 4, 3, 2, 1];
 const duplicates = [5, 2, 8, 2, 9, 5, 1];

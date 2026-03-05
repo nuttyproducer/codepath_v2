@@ -1,8 +1,8 @@
 /**
  * Sprint 9 - Key Exercise 4: Error Propagation
- * 
+ *
  * Learning objective: Understand how errors propagate through function calls
- * 
+ *
  * Task: Practice error handling at different levels
  */
 
@@ -13,7 +13,7 @@ function levelThree() {
 
 function levelTwo() {
   console.log("Level 2: Calling level 3");
-  levelThree();  // Error will propagate up from here
+  levelThree(); // Error will propagate up from here
 }
 
 function levelOne() {
@@ -39,7 +39,7 @@ function processData(data) {
 function transformData(data) {
   // Transform could fail
   const processed = processData(data);
-  return processed.toUpperCase();  // Will fail if data isn't a string
+  return processed.toUpperCase(); // Will fail if data isn't a string
 }
 
 function saveData(data) {
@@ -54,6 +54,6 @@ function saveData(data) {
 }
 
 // Test the chain
-saveData("hello");        // Should succeed
-saveData(null);           // Should fail at processData
-saveData(12345);          // Should fail at transformData
+saveData("hello"); // Should succeed
+saveData(null); // Should fail at processData
+saveData(12345); // Should fail at transformData

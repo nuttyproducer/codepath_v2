@@ -1,8 +1,8 @@
 /**
  * Sprint 9 - Key Exercise 1: Try-Catch Basics
- * 
+ *
  * Learning objective: Understand try-catch-finally blocks
- * 
+ *
  * Task: Complete the error handling examples
  */
 
@@ -19,19 +19,18 @@ function divide(a, b) {
   }
 }
 
-console.log(divide(10, 2));   // Expected: 5
-console.log(divide(10, 0));   // Expected: Error message, then null
+console.log(divide(10, 2)); // Expected: 5
+console.log(divide(10, 0)); // Expected: Error message, then null
 
 // TODO: Write a function that parses JSON safely
 function parseJSON(jsonString) {
   // Use try-catch to handle invalid JSON
   // If valid, return the parsed object
   // If invalid, return null and log the error
-  
 }
 
-console.log(parseJSON('{"name": "Alice"}'));  // Expected: { name: "Alice" }
-console.log(parseJSON('invalid json'));       // Expected: Error logged, then null
+console.log(parseJSON('{"name": "Alice"}')); // Expected: { name: "Alice" }
+console.log(parseJSON("invalid json")); // Expected: Error logged, then null
 
 // TODO: Add finally block
 function readFile(filename) {

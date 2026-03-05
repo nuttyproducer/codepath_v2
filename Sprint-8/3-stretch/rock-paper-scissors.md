@@ -45,7 +45,7 @@ const gameState = {
   computerScore: 0,
   ties: 0,
   history: [],
-  round: 1
+  round: 1,
 };
 ```
 

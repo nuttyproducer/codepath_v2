@@ -1,16 +1,16 @@
 /**
  * Sprint 7 - Mandatory Implement 2: Filter Products
- * 
+ *
  * Implement product filtering by category.
- * 
+ *
  * Requirements:
  * - Display all products initially
  * - When a category button is clicked, show only products from that category
  * - "All" button should show all products
  * - Hide products that don't match the selected category
- * 
+ *
  * Use the provided HTML file: filter-products.html
- * 
+ *
  * Hints:
  * - Each product has a data-category attribute
  * - Use element.style.display = "none" to hide
@@ -25,11 +25,9 @@ function filterProducts(category) {
   // 3. Get the product's data-category attribute
   // 4. If category is "all" OR matches the product's category, show it
   // 5. Otherwise, hide it
-  
 }
 
 // TODO: Select all filter buttons
-
 
 // TODO: Add click event listeners to each button
 // When clicked:

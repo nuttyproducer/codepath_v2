@@ -1,69 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopping Cart</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; max-width: 1000px; margin: 0 auto; }
-    .container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
-    .product-item { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
-    .product-item h3 { margin-top: 0; }
-    .price { color: green; font-weight: bold; font-size: 18px; }
-    button { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
-    button:hover { background-color: #0056b3; }
-    .cart { border: 1px solid #ddd; padding: 20px; border-radius: 5px; position: sticky; top: 20px; }
-    .cart-item { padding: 10px; margin: 5px 0; background-color: #f0f0f0; border-radius: 3px; }
-    .cart-total { font-size: 24px; font-weight: bold; color: green; margin-top: 20px; padding-top: 20px; border-top: 2px solid #ddd; }
-  </style>
-</head>
-<body>
-  <h1>Shopping Cart Exercise</h1>
-  
-  <div class="container">
-    <div class="products">
-      <h2>Products</h2>
-      
-      <div class="product-item" data-name="Laptop" data-price="999">
-        <h3>Laptop</h3>
-        <p>High-performance laptop for professionals</p>
-        <p class="price">$999</p>
-        <button class="add-to-cart">Add to Cart</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+      }
+      .product-item {
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+      }
+      .product-item h3 {
+        margin-top: 0;
+      }
+      .price {
+        color: green;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .cart {
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 5px;
+        position: sticky;
+        top: 20px;
+      }
+      .cart-item {
+        padding: 10px;
+        margin: 5px 0;
+        background-color: #f0f0f0;
+        border-radius: 3px;
+      }
+      .cart-total {
+        font-size: 24px;
+        font-weight: bold;
+        color: green;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 2px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shopping Cart Exercise</h1>
+
+    <div class="container">
+      <div class="products">
+        <h2>Products</h2>
+
+        <div class="product-item" data-name="Laptop" data-price="999">
+          <h3>Laptop</h3>
+          <p>High-performance laptop for professionals</p>
+          <p class="price">$999</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-item" data-name="Mouse" data-price="29">
+          <h3>Wireless Mouse</h3>
+          <p>Ergonomic wireless mouse</p>
+          <p class="price">$29</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-item" data-name="Keyboard" data-price="79">
+          <h3>Mechanical Keyboard</h3>
+          <p>RGB mechanical keyboard</p>
+          <p class="price">$79</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-item" data-name="Monitor" data-price="299">
+          <h3>4K Monitor</h3>
+          <p>27-inch 4K display</p>
+          <p class="price">$299</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
       </div>
-      
-      <div class="product-item" data-name="Mouse" data-price="29">
-        <h3>Wireless Mouse</h3>
-        <p>Ergonomic wireless mouse</p>
-        <p class="price">$29</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      
-      <div class="product-item" data-name="Keyboard" data-price="79">
-        <h3>Mechanical Keyboard</h3>
-        <p>RGB mechanical keyboard</p>
-        <p class="price">$79</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      
-      <div class="product-item" data-name="Monitor" data-price="299">
-        <h3>4K Monitor</h3>
-        <p>27-inch 4K display</p>
-        <p class="price">$299</p>
-        <button class="add-to-cart">Add to Cart</button>
+
+      <div class="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+          <p>Cart is empty</p>
+        </div>
+        <div class="cart-total">Total: $<span id="cart-total">0</span></div>
       </div>
     </div>
-    
-    <div class="cart">
-      <h2>Your Cart</h2>
-      <div id="cart-items">
-        <p>Cart is empty</p>
-      </div>
-      <div class="cart-total">
-        Total: $<span id="cart-total">0</span>
-      </div>
-    </div>
-  </div>
-  
-  <script src="1-add-to-cart.js"></script>
-</body>
+
+    <script src="1-add-to-cart.js"></script>
+  </body>
 </html>

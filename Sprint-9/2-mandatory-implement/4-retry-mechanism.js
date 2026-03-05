@@ -1,15 +1,15 @@
 /**
  * Sprint 9 - Mandatory Implement 4: Retry Failed Operations
- * 
+ *
  * Implement a retry mechanism for operations that might fail.
- * 
+ *
  * Requirements:
  * - Accept a function to execute and maximum retry attempts
  * - If the function throws an error, retry up to maxRetries times
  * - Return the result if successful
  * - Throw the last error if all retries fail
  * - Log each retry attempt
- * 
+ *
  * Example:
  * let attempts = 0;
  * const unreliableFunction = () => {
@@ -17,10 +17,10 @@
  *   if (attempts < 3) throw new Error("Failed");
  *   return "Success!";
  * };
- * 
+ *
  * retry(unreliableFunction, 3) → "Success!" (after 3 attempts)
  * retry(unreliableFunction, 1) → throws Error (not enough retries)
- * 
+ *
  * Hints:
  * - Use a for loop to attempt execution
  * - Use try-catch inside the loop
@@ -29,7 +29,6 @@
 
 function retry(fn, maxRetries) {
   // TODO: Implement retry logic
-  
 }
 
 // Test cases
@@ -46,7 +45,7 @@ const unreliableOperation1 = () => {
 
 try {
   const result = retry(unreliableOperation1, 5);
-  console.log("Result:", result);  // Expected: "Success!"
+  console.log("Result:", result); // Expected: "Success!"
 } catch (error) {
   console.error("Failed:", error.message);
 }
@@ -62,7 +61,7 @@ const alwaysFails = () => {
 try {
   retry(alwaysFails, 3);
 } catch (error) {
-  console.log("Caught expected error:", error.message);  // Expected: error
+  console.log("Caught expected error:", error.message); // Expected: error
 }
 
 console.log("\nTest 3: Succeeds immediately");
@@ -73,7 +72,7 @@ const succeedsImmediately = () => {
 
 try {
   const result = retry(succeedsImmediately, 5);
-  console.log("Result:", result);  // Expected: "Instant success!"
+  console.log("Result:", result); // Expected: "Instant success!"
 } catch (error) {
   console.error("Failed:", error.message);
 }

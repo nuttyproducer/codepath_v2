@@ -1,8 +1,8 @@
 /**
  * Sprint 7 - Key Exercise 5: Dynamic Lists
- * 
+ *
  * Learning objective: Add and remove items from a list dynamically
- * 
+ *
  * Task:
  * Open dynamic-lists.html and implement the todo list functionality.
  */
@@ -20,17 +20,14 @@ const addButton = null;
 function renderList() {
   // TODO: Clear the current list
   // todoList.innerHTML = "";
-  
   // TODO: Loop through items array and create li elements
   // For each item:
   // 1. Create an li element
   // 2. Set its textContent to the item
   // 3. Append it to todoList
-  
 }
 
 // TODO: Call renderList() to display initial items
-
 
 // TODO: Add click event listener to the button
 // When clicked:

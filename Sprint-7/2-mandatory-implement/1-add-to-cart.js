@@ -1,22 +1,22 @@
 /**
  * Sprint 7 - Mandatory Implement 1: Add to Cart
- * 
+ *
  * Implement a function that adds products to a shopping cart.
- * 
+ *
  * Requirements:
  * - When "Add to Cart" button is clicked, add the product to cart array
  * - Update the cart display to show all items
  * - Calculate and display the total price
  * - Each product has: name (string) and price (number)
- * 
+ *
  * Use the provided HTML file: add-to-cart.html
- * 
+ *
  * Example cart array:
  * [
  *   { name: "Laptop", price: 999 },
  *   { name: "Mouse", price: 29 }
  * ]
- * 
+ *
  * Steps:
  * 1. Select all "Add to Cart" buttons
  * 2. Add click event listeners to each button
@@ -34,14 +34,11 @@ function updateCartDisplay() {
   // 3. Loop through cart array and create HTML for each item
   // 4. Calculate total price
   // 5. Update the total display
-  
 }
 
 // TODO: Select all "Add to Cart" buttons
 
-
 // TODO: Add click event listeners to buttons
-
 
 // Initialize
 updateCartDisplay();

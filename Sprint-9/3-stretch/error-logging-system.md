@@ -19,19 +19,19 @@ class ErrorLogger {
   constructor() {
     this.logs = [];
   }
-  
+
   log(level, message, error) {
     // Store error with timestamp and details
   }
-  
+
   getErrors(filter) {
     // Return filtered errors
   }
-  
+
   getStatistics() {
     // Return error statistics
   }
-  
+
   clearLogs() {
     // Clear all logs
   }

@@ -1,8 +1,8 @@
 /**
  * Sprint 7 - Key Exercise 2: Modify Element Content
- * 
+ *
  * Learning objective: Change text content and inner HTML of elements
- * 
+ *
  * Task:
  * Open modify-content.html in your browser.
  * Complete the TODOs to modify the page content.

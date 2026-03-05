@@ -1,8 +1,8 @@
 /**
  * Sprint 9 - Key Exercise 2: Throwing Errors
- * 
+ *
  * Learning objective: Learn to throw custom errors
- * 
+ *
  * Task: Practice throwing different types of errors
  */
 
@@ -13,12 +13,11 @@ function validateAge(age) {
   // - age is negative
   // - age is greater than 150
   // Otherwise return true
-  
 }
 
 try {
-  console.log(validateAge(25));      // Expected: true
-  console.log(validateAge(-5));      // Should throw error
+  console.log(validateAge(25)); // Expected: true
+  console.log(validateAge(-5)); // Should throw error
 } catch (error) {
   console.error("Caught:", error.message);
 }
@@ -39,8 +38,8 @@ function validateEmail(email) {
 
 // Test the email validator
 try {
-  validateEmail("test@example.com");  // Should pass
-  validateEmail("invalid-email");      // Should throw
+  validateEmail("test@example.com"); // Should pass
+  validateEmail("invalid-email"); // Should throw
 } catch (error) {
   console.error("Email error:", error.message);
 }

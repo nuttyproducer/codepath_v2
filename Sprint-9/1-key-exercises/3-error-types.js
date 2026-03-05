@@ -1,8 +1,8 @@
 /**
  * Sprint 9 - Key Exercise 3: Error Types
- * 
+ *
  * Learning objective: Understand different error types
- * 
+ *
  * Task: Learn about built-in JavaScript error types
  */
 
@@ -12,16 +12,16 @@
 try {
   console.log(undefinedVariable);
 } catch (error) {
-  console.log("Type:", error.name);      // ReferenceError
+  console.log("Type:", error.name); // ReferenceError
   console.log("Message:", error.message);
 }
 
 // 2. TypeError - Wrong type operation
 try {
   const num = 5;
-  num.toUpperCase();  // Numbers don't have toUpperCase
+  num.toUpperCase(); // Numbers don't have toUpperCase
 } catch (error) {
-  console.log("Type:", error.name);      // TypeError
+  console.log("Type:", error.name); // TypeError
 }
 
 // 3. SyntaxError - Incorrect syntax (uncomment to see)
@@ -37,15 +37,15 @@ function demonstrateErrors(errorType) {
     switch (errorType) {
       case "reference":
         // Trigger a ReferenceError
-        
+
         break;
       case "type":
         // Trigger a TypeError
-        
+
         break;
       case "range":
         // Trigger a RangeError (hint: invalid array length)
-        
+
         break;
       default:
         console.log("Unknown error type");

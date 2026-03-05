@@ -36,9 +36,24 @@ Build a complete interactive photo gallery with the following features:
 
 ```javascript
 const photos = [
-  { id: 1, title: "Sunset", url: "https://picsum.photos/800/600?random=1", thumbnail: "https://picsum.photos/200/150?random=1" },
-  { id: 2, title: "Mountains", url: "https://picsum.photos/800/600?random=2", thumbnail: "https://picsum.photos/200/150?random=2" },
-  { id: 3, title: "Ocean", url: "https://picsum.photos/800/600?random=3", thumbnail: "https://picsum.photos/200/150?random=3" }
+  {
+    id: 1,
+    title: "Sunset",
+    url: "https://picsum.photos/800/600?random=1",
+    thumbnail: "https://picsum.photos/200/150?random=1",
+  },
+  {
+    id: 2,
+    title: "Mountains",
+    url: "https://picsum.photos/800/600?random=2",
+    thumbnail: "https://picsum.photos/200/150?random=2",
+  },
+  {
+    id: 3,
+    title: "Ocean",
+    url: "https://picsum.photos/800/600?random=3",
+    thumbnail: "https://picsum.photos/200/150?random=3",
+  },
 ];
 ```
 

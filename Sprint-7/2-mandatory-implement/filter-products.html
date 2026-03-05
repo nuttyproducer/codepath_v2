@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Filter</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 1200px; margin: 0 auto; }
+    .filter-buttons { margin: 20px 0; }
+    .filter-btn { padding: 10px 20px; margin: 5px; background-color: #f0f0f0; border: 2px solid #ddd; border-radius: 5px; cursor: pointer; }
+    .filter-btn:hover { background-color: #e0e0e0; }
+    .filter-btn.active { background-color: #007bff; color: white; border-color: #007bff; }
+    .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+    .product-item { border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+    .product-item h3 { margin-top: 0; }
+    .category-badge { display: inline-block; padding: 5px 10px; background-color: #007bff; color: white; border-radius: 3px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Product Catalog</h1>
+  
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="electronics">Electronics</button>
+    <button class="filter-btn" data-category="clothing">Clothing</button>
+    <button class="filter-btn" data-category="books">Books</button>
+  </div>
+  
+  <div class="products">
+    <div class="product-item" data-category="electronics">
+      <h3>Laptop</h3>
+      <span class="category-badge">Electronics</span>
+      <p>High-performance laptop</p>
+      <p><strong>$999</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="clothing">
+      <h3>T-Shirt</h3>
+      <span class="category-badge">Clothing</span>
+      <p>Comfortable cotton t-shirt</p>
+      <p><strong>$25</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="books">
+      <h3>JavaScript Guide</h3>
+      <span class="category-badge">Books</span>
+      <p>Learn JavaScript from scratch</p>
+      <p><strong>$35</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="electronics">
+      <h3>Wireless Mouse</h3>
+      <span class="category-badge">Electronics</span>
+      <p>Ergonomic wireless mouse</p>
+      <p><strong>$29</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="clothing">
+      <h3>Jeans</h3>
+      <span class="category-badge">Clothing</span>
+      <p>Classic denim jeans</p>
+      <p><strong>$60</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="books">
+      <h3>HTML & CSS</h3>
+      <span class="category-badge">Books</span>
+      <p>Web design fundamentals</p>
+      <p><strong>$40</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="electronics">
+      <h3>Headphones</h3>
+      <span class="category-badge">Electronics</span>
+      <p>Noise-cancelling headphones</p>
+      <p><strong>$150</strong></p>
+    </div>
+    
+    <div class="product-item" data-category="clothing">
+      <h3>Sneakers</h3>
+      <span class="category-badge">Clothing</span>
+      <p>Comfortable running shoes</p>
+      <p><strong>$85</strong></p>
+    </div>
+  </div>
+  
+  <script src="2-filter-products.js"></script>
+</body>
+</html>

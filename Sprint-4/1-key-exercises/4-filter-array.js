@@ -1,12 +1,12 @@
 /**
  * Sprint 4 - Key Exercise 4: Filter Array
- * 
+ *
  * Learning objective: Use the filter() method
- * 
+ *
  * Task:
  * Given an array of all grades, create a new array containing only
  * the failing grades (below 60).
- * 
+ *
  * Learn to use: array.filter()
  */
 
@@ -22,7 +22,6 @@ console.log("Number of failing grades:", failingGrades.length);
 
 // Bonus: Create another array with only grades above 85 (excellent)
 // const excellentGrades = allGrades.filter(/* your code here */);
-
 
 // Additional challenge:
 // Filter the grades into three categories: failing, passing, excellent

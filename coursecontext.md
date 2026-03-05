@@ -11,6 +11,7 @@ This repository is based on the **Code Your Future – Structuring and Testing D
 The repo currently contains 3 sprints of JavaScript exercises covering:
 
 ### Sprint 1 – Fundamentals
+
 - Variables, counting, reassignment
 - String indexing, template literals (initials)
 - Path parsing (`lastIndexOf`, `substring`)
@@ -19,12 +20,14 @@ The repo currently contains 3 sprints of JavaScript exercises covering:
 - Error interpretation exercises
 
 ### Sprint 2 – Functions & Debugging
+
 - Debugging exercises (predicting + fixing errors)
 - Implementing functions: BMI calculator, UPPER_SNAKE_CASE converter, `toPounds`
 - Code interpretation (time formatting)
 - Extending a 24h→12h clock converter with tests
 
 ### Sprint 3 – Testing & TDD
+
 - Implementing + writing Jest tests for: angle classifier, proper fraction checker, card value calculator
 - TDD practice: `count`, `repeat`, `getOrdinalNumber`
 - Stretch: password validator, card validator, `find` function
@@ -34,24 +37,28 @@ The repo currently contains 3 sprints of JavaScript exercises covering:
 Extended the curriculum with 7 additional sprints focused on real-world scenarios:
 
 ### Sprint 4 – Arrays (👥 Student Grade Tracker)
+
 - Array iteration, `map`, `filter`, `reduce`
 - Calculate class averages, filter passing students
 - Sort by grades, generate analytics
 - **Real-world**: Learning Management Systems
 
 ### Sprint 5 – Objects (📇 Contact Manager)
+
 - Object properties, methods, `this` keyword
 - Nested data, destructuring, spread operator
 - Create, search, update, filter contacts
 - **Real-world**: CRM systems like Salesforce
 
 ### Sprint 6 – Strings & RegEx (📝 Form Validation)
+
 - String methods, template literals
 - Regular expressions for pattern matching
 - Email validation, password strength, phone formatting
 - **Real-world**: Signup forms, input validation
 
 ### Sprint 7 – DOM Manipulation (🛒 Shopping Cart) **HTML/CSS/JS Bridge!**
+
 - querySelector, event listeners
 - Dynamic content, classList manipulation
 - Build interactive shopping cart with localStorage
@@ -59,18 +66,21 @@ Extended the curriculum with 7 additional sprints focused on real-world scenario
 - **Note**: Includes HTML/CSS starter files
 
 ### Sprint 8 – Control Flow (🎫 Ticket Booking)
+
 - Conditional logic, switch statements, ternary operators
 - Dynamic pricing based on multiple factors
 - Age-based, time-based, availability checking
 - **Real-world**: Ticketmaster, airline booking
 
 ### Sprint 9 – Error Handling (🏦 Banking Transactions)
+
 - try/catch, throw, custom error classes
 - Defensive programming, input validation
 - Transaction validation, error logging
 - **Real-world**: Financial apps, payment systems
 
 ### Sprint 10 – Algorithms (🗓️ Scheduling System)
+
 - Problem-solving patterns, recursion
 - Find available slots, check conflicts
 - Sort and optimize schedules
@@ -79,6 +89,7 @@ Extended the curriculum with 7 additional sprints focused on real-world scenario
 ## Structure
 
 Each new sprint follows this pattern:
+
 ```
 Sprint-X/
   ├── readme.md              # Overview, learning objectives, resources
@@ -96,4 +107,3 @@ Sprint-X/
 - ✅ Emphasizes practical skills for modern web development
 
 ## Additional Context
-

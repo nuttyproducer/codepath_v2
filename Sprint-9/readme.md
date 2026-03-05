@@ -25,6 +25,7 @@ By the end of this sprint, you will be able to:
 ## Structure
 
 ### 1. Key Exercises (`1-key-exercises/`)
+
 1. **Try-catch basics** - Error handling fundamentals
 2. **Throw errors** - Creating error messages
 3. **Custom errors** - Error classes
@@ -32,12 +33,14 @@ By the end of this sprint, you will be able to:
 5. **Debugging techniques** - Finding bugs
 
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
+
 1. `validateTransaction()` - Check transaction validity
 2. `processPayment()` - Handle payment errors
 3. `handleInsufficientFunds()` - Custom error handling
 4. `logTransaction()` - Error logging
 
 ### 3. Stretch Goals (`3-stretch/`)
+
 - Complete banking system with error handling
 - Transaction rollback on failure
 - Comprehensive error logging system

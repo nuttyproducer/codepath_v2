@@ -1,8 +1,8 @@
 /**
  * Sprint 5 - Key Exercise 3: Nested Data
- * 
+ *
  * Learning objective: Work with nested objects and arrays
- * 
+ *
  * Task:
  * Create and access deeply nested data structures.
  */
@@ -13,18 +13,18 @@ const contact = {
   phones: [
     { type: "mobile", number: "555-0303" },
     { type: "work", number: "555-0304" },
-    { type: "home", number: "555-0305" }
+    { type: "home", number: "555-0305" },
   ],
   address: {
     street: "456 Oak Ave",
     city: "Portland",
     state: "OR",
-    zipCode: "97201"
+    zipCode: "97201",
   },
   socialMedia: {
     twitter: "@charlie",
-    linkedin: "charlie-davis"
-  }
+    linkedin: "charlie-davis",
+  },
 };
 
 // Access nested objects
@@ -41,12 +41,8 @@ console.log("Mobile number:", contact.phones[0].number);
 // - LinkedIn handle
 // - The entire address object
 
-
-
 // TODO: Add a new phone number to the phones array
 // { type: "emergency", number: "555-9999" }
-
-
 
 // Bonus: Find the mobile phone number using array.find()
 // const mobilePhone = contact.phones.find(phone => phone.type === "mobile");

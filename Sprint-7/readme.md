@@ -28,6 +28,7 @@ By the end of this sprint, you will be able to:
 ### 1. Key Exercises (`1-key-exercises/`)
 
 Short, focused exercises with HTML files:
+
 1. **Select elements** - querySelector basics
 2. **Change content** - textContent, innerHTML
 3. **Toggle classes** - classList methods
@@ -37,6 +38,7 @@ Short, focused exercises with HTML files:
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
 
 Build shopping cart features:
+
 1. `addItemToCart()` - Add product to cart
 2. `removeItemFromCart()` - Remove product
 3. `updateQuantity()` - Change item quantity
@@ -45,6 +47,7 @@ Build shopping cart features:
 ### 3. Stretch Goals (`3-stretch/`)
 
 Optional challenges:
+
 - Complete shopping cart with localStorage
 - Add animations and transitions
 - Implement cart persistence across page loads

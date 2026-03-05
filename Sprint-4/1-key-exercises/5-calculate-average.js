@@ -1,11 +1,11 @@
 /**
  * Sprint 4 - Key Exercise 5: Calculate Average
- * 
+ *
  * Learning objective: Use reduce() to calculate totals
- * 
+ *
  * Task:
  * Calculate the average grade for a class.
- * 
+ *
  * Learn to use: array.reduce()
  */
 
@@ -18,7 +18,6 @@ const classGrades = [78, 85, 92, 88, 76, 95, 82];
 // TODO: Use reduce to sum all grades
 const sum = 0; // Replace with reduce logic
 // Hint: classGrades.reduce((total, grade) => total + grade, 0)
-
 
 console.log("Sum of all grades:", sum);
 

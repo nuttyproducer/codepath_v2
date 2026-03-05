@@ -14,19 +14,20 @@ const validator = new FormValidator();
 validator.addField("email", {
   required: true,
   pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-  message: "Please enter a valid email"
+  message: "Please enter a valid email",
 });
 
 validator.addField("password", {
   required: true,
   minLength: 8,
   pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])/,
-  message: "Password must be 8+ chars with uppercase, lowercase, number, and special char"
+  message:
+    "Password must be 8+ chars with uppercase, lowercase, number, and special char",
 });
 
 const formData = {
   email: "test@example.com",
-  password: "weak"
+  password: "weak",
 };
 
 const result = validator.validate(formData);

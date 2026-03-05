@@ -1,12 +1,12 @@
 /**
  * Sprint 4 - Key Exercise 3: Count Passing Students
- * 
+ *
  * Learning objective: Use conditional logic with arrays
- * 
+ *
  * Task:
  * Given an array of grades, count how many students passed.
  * A passing grade is 60 or higher.
- * 
+ *
  * Example:
  * grades = [85, 45, 72, 55, 90, 68]
  * Result: 4 students passed (85, 72, 90, 68)
@@ -18,8 +18,6 @@ let passingCount = 0;
 
 // TODO: Loop through the grades array
 // If a grade is >= 60, increment passingCount
-
-
 
 console.log(`${passingCount} students passed`);
 console.log(`${grades.length - passingCount} students failed`);

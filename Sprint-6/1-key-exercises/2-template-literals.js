@@ -1,8 +1,8 @@
 /**
  * Sprint 6 - Key Exercise 2: Template Literals
- * 
+ *
  * Learning objective: Build dynamic strings with template literals
- * 
+ *
  * Task:
  * Use template literals for cleaner string concatenation.
  */
@@ -31,21 +31,17 @@ console.log(bio);
 // TODO: Create an email greeting using template literals
 // Format: "Hi [firstName], welcome to [city]! You are [age] years old."
 
-
-
 // Expressions in template literals
 const price = 19.99;
 const quantity = 3;
 const total = `Total: $${(price * quantity).toFixed(2)}`;
-console.log(total);  // "Total: $59.97"
+console.log(total); // "Total: $59.97"
 
 // TODO: Create a product description
 const product = "Laptop";
 const originalPrice = 999;
-const discount = 0.15;  // 15% off
+const discount = 0.15; // 15% off
 // Output: "Laptop: Was $999, now $[calculated] (Save $[saved])"
-
-
 
 // Conditional logic in template literals
 const user = { name: "Bob", isPremium: true };
@@ -56,5 +52,3 @@ console.log(message);
 const order = { id: 12345, shipped: false };
 // If shipped: "Order #12345 has been shipped"
 // If not: "Order #12345 is being processed"
-
-

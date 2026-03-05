@@ -52,7 +52,6 @@ const students = [
    - Total number of students
    - Average grade
    - Highest and lowest grades
-   
 2. **Calculate median**
    - Sort the grades and find the middle value
    - Handle both odd and even number of students
@@ -97,13 +96,13 @@ function analyzeClassPerformance(students) {
       B: 0,
       C: 0,
       D: 0,
-      F: 0
+      F: 0,
     },
-    topPerformers: []
+    topPerformers: [],
   };
 
   // TODO: Implement the logic
-  
+
   return stats;
 }
 
@@ -118,7 +117,7 @@ const testClass = [
   { name: "Grace", grade: 88 },
   { name: "Henry", grade: 55 },
   { name: "Ivy", grade: 92 },
-  { name: "Jack", grade: 76 }
+  { name: "Jack", grade: 76 },
 ];
 
 console.log(analyzeClassPerformance(testClass));

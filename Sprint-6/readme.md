@@ -30,6 +30,7 @@ By the end of this sprint, you will be able to:
 ### 1. Key Exercises (`1-key-exercises/`)
 
 Short, focused exercises:
+
 1. **String basics** - Common string methods
 2. **Template literals** - Dynamic string building
 3. **Email validation** - Basic regex patterns
@@ -39,6 +40,7 @@ Short, focused exercises:
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
 
 Build validation functions:
+
 1. `validateEmail()` - Email format checker
 2. `checkPasswordStrength()` - Password validator
 3. `formatPhoneNumber()` - Format phone numbers
@@ -47,6 +49,7 @@ Build validation functions:
 ### 3. Stretch Goals (`3-stretch/`)
 
 Optional challenges:
+
 - Build a complete form validation library
 - Multi-field validation with custom rules
 - Real-time validation feedback

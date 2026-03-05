@@ -1,6 +1,6 @@
 /**
  * Sprint 5 - Stretch Challenge: Contact Manager CRM
- * 
+ *
  * Build a complete CRM system with full CRUD operations.
  * See README.md for full requirements.
  */
@@ -72,14 +72,14 @@ crm.addContact({
   name: "Alice Johnson",
   email: "alice@example.com",
   phone: "555-0101",
-  category: "work"
+  category: "work",
 });
 
 crm.addContact({
   name: "Bob Smith",
   email: "bob@example.com",
   phone: "555-0202",
-  category: "personal"
+  category: "personal",
 });
 
 console.log("All contacts:", crm.getAllContacts());

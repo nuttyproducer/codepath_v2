@@ -22,6 +22,7 @@ Implement a `ContactManager` class that manages a collection of contacts with ad
 ### Data Structure
 
 Each contact should have:
+
 ```javascript
 {
   id: "unique-id",  // Auto-generated
@@ -108,7 +109,7 @@ crm.addContact({
   name: "Alice Johnson",
   email: "alice@example.com",
   phone: "555-0101",
-  category: "work"
+  category: "work",
 });
 
 // Search

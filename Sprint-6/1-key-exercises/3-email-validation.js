@@ -1,8 +1,8 @@
 /**
  * Sprint 6 - Key Exercise 3: Email Validation
- * 
+ *
  * Learning objective: Use regular expressions for pattern matching
- * 
+ *
  * Task:
  * Validate email addresses using regex.
  */
@@ -12,11 +12,11 @@
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 // Testing emails
-console.log(emailRegex.test("alice@example.com"));     // true
+console.log(emailRegex.test("alice@example.com")); // true
 console.log(emailRegex.test("bob.smith@company.org")); // true
-console.log(emailRegex.test("invalid.email"));         // false
-console.log(emailRegex.test("missing@domain"));        // false
-console.log(emailRegex.test("@missingname.com"));      // false
+console.log(emailRegex.test("invalid.email")); // false
+console.log(emailRegex.test("missing@domain")); // false
+console.log(emailRegex.test("@missingname.com")); // false
 
 // Breaking down the regex:
 // ^          - Start of string
@@ -33,22 +33,19 @@ const testEmails = [
   "first.last@company.co.uk",
   "nodomain@",
   "spaces in@email.com",
-  "multiple@@symbols.com"
+  "multiple@@symbols.com",
 ];
 
 // Loop through and test each one
 
-
 // String methods with regex
 const email = "contact@example.com";
-console.log(email.match(/@(.+)\./));  // Extract domain
-console.log(email.replace(/@.+/, "@hidden.com"));  // Hide domain
+console.log(email.match(/@(.+)\./)); // Extract domain
+console.log(email.replace(/@.+/, "@hidden.com")); // Hide domain
 
 // TODO: Extract the username (part before @) from an email
 const fullEmail = "alice.johnson@company.com";
 // Hint: Use match() or split()
-
-
 
 // More regex methods
 console.log("Check contains @:", /@/.test("test@email.com"));

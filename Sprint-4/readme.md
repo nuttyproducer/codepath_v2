@@ -31,6 +31,7 @@ By the end of this sprint, you will be able to:
 ### 1. Key Exercises (`1-key-exercises/`)
 
 Short, focused exercises to build your understanding of array fundamentals:
+
 1. **Loop through grades** - Basic iteration
 2. **Find highest score** - Using `Math.max` with arrays
 3. **Count passing students** - Conditional counting
@@ -40,6 +41,7 @@ Short, focused exercises to build your understanding of array fundamentals:
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
 
 Build functions for a grade tracking system:
+
 1. `calculateClassAverage()` - Calculate average grade for a class
 2. `getPassingStudents()` - Filter students who passed
 3. `sortStudentsByGrade()` - Sort students by their scores
@@ -48,6 +50,7 @@ Build functions for a grade tracking system:
 ### 3. Stretch Goals (`3-stretch/`)
 
 Optional challenges:
+
 - Build a complete grade analytics system
 - Generate grade reports with statistics
 - Implement grade distributions and percentiles

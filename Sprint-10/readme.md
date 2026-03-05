@@ -24,6 +24,7 @@ By the end of this sprint, you will be able to:
 ## Structure
 
 ### 1. Key Exercises (`1-key-exercises/`)
+
 1. **Find available slots** - Array searching
 2. **Check conflicts** - Overlap detection
 3. **Sort bookings** - Custom sorting
@@ -31,12 +32,14 @@ By the end of this sprint, you will be able to:
 5. **Optimization** - Efficient algorithms
 
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
+
 1. `findAvailableTimeSlots()` - Slot finder
 2. `checkBookingConflict()` - Conflict checker
 3. `optimizeSchedule()` - Schedule optimizer
 4. `generateRecurring()` - Recurring event handler
 
 ### 3. Stretch Goals (`3-stretch/`)
+
 - Complete calendar system
 - Multi-resource scheduling
 - Advanced conflict resolution

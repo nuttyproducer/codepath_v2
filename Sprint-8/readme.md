@@ -24,6 +24,7 @@ By the end of this sprint, you will be able to:
 ## Structure
 
 ### 1. Key Exercises (`1-key-exercises/`)
+
 1. **Age-based pricing** - Simple if/else
 2. **Peak pricing** - Time-based rules
 3. **Switch statements** - Day of week logic
@@ -31,12 +32,14 @@ By the end of this sprint, you will be able to:
 5. **Complex conditions** - Multiple factors
 
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
+
 1. `calculateTicketPrice()` - Dynamic pricing
 2. `checkAvailability()` - Seat availability logic
 3. `applyDiscount()` - Discount rules
 4. `validateBooking()` - Booking validation
 
 ### 3. Stretch Goals (`3-stretch/`)
+
 - Complete reservation system
 - Implement group bookings
 - Add promo code system

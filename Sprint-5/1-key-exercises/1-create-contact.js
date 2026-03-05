@@ -1,8 +1,8 @@
 /**
  * Sprint 5 - Key Exercise 1: Create Contact Objects
- * 
+ *
  * Learning objective: Create objects using object literal syntax
- * 
+ *
  * Task:
  * Create contact objects with properties for name, email, phone, and category.
  */
@@ -12,7 +12,7 @@ const contact1 = {
   name: "Alice Johnson",
   email: "alice@example.com",
   phone: "555-0101",
-  category: "work"
+  category: "work",
 };
 
 console.log(contact1);

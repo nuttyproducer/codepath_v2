@@ -21,10 +21,12 @@
 ## Sprint-5: Objects (Contact Manager) 📇
 
 ### Setup
+
 - [x] Create folder structure
 - [x] Create readme.md
 
 ### Key Exercises (1-key-exercises/)
+
 - [ ] 1-create-contact.js — Object literal syntax
 - [ ] 2-access-properties.js — Dot vs bracket notation
 - [ ] 3-nested-data.js — Objects within objects
@@ -32,12 +34,14 @@
 - [ ] 5-destructuring.js — Extract values cleanly
 
 ### Mandatory Implement (2-mandatory-implement/)
+
 - [ ] 1-create-contact.js — Create contact with validation
 - [ ] 2-search-contacts.js — Find contacts by name
 - [ ] 3-update-contact.js — Modify contact information
 - [ ] 4-get-by-category.js — Filter by category
 
 ### Stretch (3-stretch/)
+
 - [ ] README.md — Challenge description
 - [ ] contact-manager.js — Full CRM system
 
@@ -46,10 +50,12 @@
 ## Sprint-6: Strings & RegEx (Form Validation) 📝
 
 ### Setup
+
 - [x] Create folder structure
 - [x] Create readme.md
 
 ### Key Exercises (1-key-exercises/)
+
 - [ ] 1-string-basics.js — Common string methods
 - [ ] 2-template-literals.js — Dynamic string building
 - [ ] 3-email-validation.js — Basic regex patterns
@@ -57,12 +63,14 @@
 - [ ] 5-phone-format.js — String transformation
 
 ### Mandatory Implement (2-mandatory-implement/)
+
 - [ ] 1-validate-email.js — Email format checker
 - [ ] 2-check-password.js — Password strength validator
 - [ ] 3-format-phone.js — Format phone numbers
 - [ ] 4-sanitize-input.js — Clean user input
 
 ### Stretch (3-stretch/)
+
 - [ ] README.md — Challenge description
 - [ ] validation-library.js — Complete form validator
 
@@ -71,10 +79,12 @@
 ## Sprint-7: DOM Manipulation (Shopping Cart) 🛒
 
 ### Setup
+
 - [x] Create folder structure
 - [x] Create readme.md
 
 ### Key Exercises (1-key-exercises/)
+
 Each exercise gets: .html, .css, .js files
 
 - [ ] 1-select-elements/
@@ -99,6 +109,7 @@ Each exercise gets: .html, .css, .js files
   - [ ] script.js
 
 ### Mandatory Implement (2-mandatory-implement/)
+
 - [ ] index.html — Shopping cart HTML structure
 - [ ] style.css — Cart styling
 - [ ] 1-add-to-cart.js — Add product to cart
@@ -107,6 +118,7 @@ Each exercise gets: .html, .css, .js files
 - [ ] 4-calculate-total.js — Sum cart total
 
 ### Stretch (3-stretch/)
+
 - [ ] README.md — Challenge description
 - [ ] index.html — Full cart HTML
 - [ ] style.css — Complete styling
@@ -117,10 +129,12 @@ Each exercise gets: .html, .css, .js files
 ## Sprint-8: Control Flow (Ticket Booking) 🎫
 
 ### Setup
+
 - [x] Create folder structure
 - [x] Create readme.md
 
 ### Key Exercises (1-key-exercises/)
+
 - [ ] 1-age-pricing.js — Simple if/else
 - [ ] 2-peak-pricing.js — Time-based rules
 - [ ] 3-switch-days.js — Day of week logic
@@ -128,12 +142,14 @@ Each exercise gets: .html, .css, .js files
 - [ ] 5-complex-conditions.js — Multiple factors
 
 ### Mandatory Implement (2-mandatory-implement/)
+
 - [ ] 1-ticket-price.js — Dynamic pricing calculator
 - [ ] 2-check-availability.js — Seat availability logic
 - [ ] 3-apply-discount.js — Discount rules engine
 - [ ] 4-validate-booking.js — Booking validation
 
 ### Stretch (3-stretch/)
+
 - [ ] README.md — Challenge description
 - [ ] booking-system.js — Complete reservation system
 
@@ -142,10 +158,12 @@ Each exercise gets: .html, .css, .js files
 ## Sprint-9: Error Handling (Banking) 🏦
 
 ### Setup
+
 - [x] Create folder structure
 - [x] Create readme.md
 
 ### Key Exercises (1-key-exercises/)
+
 - [ ] 1-try-catch.js — Error handling fundamentals
 - [ ] 2-throw-errors.js — Creating error messages
 - [ ] 3-custom-errors.js — Error classes
@@ -153,12 +171,14 @@ Each exercise gets: .html, .css, .js files
 - [ ] 5-debugging.js — Debugging techniques
 
 ### Mandatory Implement (2-mandatory-implement/)
+
 - [ ] 1-validate-transaction.js — Check transaction validity
 - [ ] 2-process-payment.js — Handle payment errors
 - [ ] 3-insufficient-funds.js — Custom error handling
 - [ ] 4-log-transaction.js — Error logging system
 
 ### Stretch (3-stretch/)
+
 - [ ] README.md — Challenge description
 - [ ] banking-system.js — Complete banking with errors
 
@@ -167,10 +187,12 @@ Each exercise gets: .html, .css, .js files
 ## Sprint-10: Algorithms (Scheduling) 🗓️
 
 ### Setup
+
 - [x] Create folder structure
 - [x] Create readme.md
 
 ### Key Exercises (1-key-exercises/)
+
 - [ ] 1-find-slots.js — Array searching
 - [ ] 2-check-conflicts.js — Overlap detection
 - [ ] 3-sort-bookings.js — Custom sorting
@@ -178,12 +200,14 @@ Each exercise gets: .html, .css, .js files
 - [ ] 5-optimize.js — Efficient algorithms
 
 ### Mandatory Implement (2-mandatory-implement/)
+
 - [ ] 1-find-available.js — Time slot finder
 - [ ] 2-check-conflict.js — Booking conflict checker
 - [ ] 3-optimize-schedule.js — Schedule optimizer
 - [ ] 4-generate-recurring.js — Recurring events
 
 ### Stretch (3-stretch/)
+
 - [ ] README.md — Challenge description
 - [ ] calendar-system.js — Complete calendar system
 
@@ -192,6 +216,7 @@ Each exercise gets: .html, .css, .js files
 ## Documentation & Configuration
 
 ### Repo-level files
+
 - [ ] Update main readme.md with Sprint 4-10 info
 - [ ] Update coursecontext.md with new content
 - [ ] Verify package.json has correct scripts
@@ -199,6 +224,7 @@ Each exercise gets: .html, .css, .js files
 - [ ] Create CONTRIBUTING.md (optional)
 
 ### docs/ folder (optional but nice)
+
 - [ ] GETTING_STARTED.md — Setup instructions
 - [ ] GIT_WORKFLOW.md — Branch/PR workflow
 - [ ] CURRICULUM.md — Full sprint overview

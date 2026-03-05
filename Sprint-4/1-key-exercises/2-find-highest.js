@@ -1,11 +1,11 @@
 /**
  * Sprint 4 - Key Exercise 2: Find Highest Score
- * 
+ *
  * Learning objective: Find the maximum value in an array
- * 
+ *
  * Task:
  * Given an array of test scores, find and log the highest score.
- * 
+ *
  * Hint: You can use Math.max() with the spread operator (...),
  * or loop through the array to find the maximum.
  */
@@ -20,8 +20,6 @@ const testScores = [72, 88, 91, 65, 78, 95, 82, 89];
 let highest = testScores[0]; // Start with the first score
 
 // TODO: Loop through testScores and update 'highest' if you find a larger value
-
-
 
 console.log("Highest score:", highest);
 

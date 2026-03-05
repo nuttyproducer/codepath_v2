@@ -31,6 +31,7 @@ By the end of this sprint, you will be able to:
 ### 1. Key Exercises (`1-key-exercises/`)
 
 Short, focused exercises to build your understanding:
+
 1. **Create contact objects** - Object literal syntax
 2. **Access properties** - Dot vs bracket notation
 3. **Nested data** - Objects within objects
@@ -40,6 +41,7 @@ Short, focused exercises to build your understanding:
 ### 2. Mandatory Implement (`2-mandatory-implement/`)
 
 Build functions for a contact manager:
+
 1. `createContact()` - Create contact with validation
 2. `searchContacts()` - Find contacts by name
 3. `updateContact()` - Modify contact information
@@ -48,6 +50,7 @@ Build functions for a contact manager:
 ### 3. Stretch Goals (`3-stretch/`)
 
 Optional challenges:
+
 - Build a full CRM system with CRUD operations
 - Implement contact groups and tags
 - Export contacts to different formats

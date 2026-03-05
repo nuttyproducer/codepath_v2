@@ -1,8 +1,8 @@
 /**
  * Sprint 5 - Key Exercise 2: Access Properties
- * 
+ *
  * Learning objective: Use dot notation and bracket notation
- * 
+ *
  * Task:
  * Practice accessing object properties using both notations.
  */
@@ -15,8 +15,8 @@ const contact = {
   address: {
     street: "123 Main St",
     city: "Springfield",
-    zipCode: "12345"
-  }
+    zipCode: "12345",
+  },
 };
 
 // Dot notation - use when you know the property name
@@ -32,13 +32,9 @@ console.log("Phone:", contact[propertyName]);
 // - city (nested in address)
 // - zipCode (nested in address)
 
-
-
 // TODO: Practice bracket notation
 // Create a variable called 'field' and set it to "email"
 // Then log contact[field]
-
-
 
 // Bonus challenge:
 // Loop through all properties and log them
